@@ -5,6 +5,11 @@
 body {
   font-family: 'ubuntu-regular', sans-serif; }
 
+.chart-holder {
+  width: 66%;
+  height: 100%;
+  margin: 50px auto; }
+
 .vertical-align {
   display: table-cell;
   text-align: center;
