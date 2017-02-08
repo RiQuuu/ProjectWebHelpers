@@ -13,72 +13,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 	<body>
-	
-		<div id="nav-top" class="dropdown">
-			<a id="button-profile" class="dropdown-button"></a>
-			<div id="dropdown-profile" class="dropdown-content">
-				<a class="vertical-align" href="#">
-					<i class="fa fa-plus fa-fw" aria-hidden="true"></i>
-				</a>
-				<a class="vertical-align" href="#">
-					<i class="fa fa-bars fa-fw" aria-hidden="true"></i>
-				</a>
-				<a class="vertical-align" href="#">
-					<i class="fa fa-wrench fa-fw" aria-hidden="true"></i>
-				</a>
-			</div>
-		</div>
-	
-		<div id="nav-bottom" class="navbar">
-			<div class="list-group">
-				<a class="list-group-item active" href="#">
-					<div class="icon-holder vertical-align">
-						<i class="fa fa-fire fa-fw icon" aria-hidden="true"></i>
-						<p class="icon-text">Popular</p>
-					</div>
-				</a>
-				<a class="list-group-item" href="#">
-					<div class="icon-holder vertical-align">
-						<i class="fa fa-clock-o fa-fw icon" aria-hidden="true"></i>
-						<p class="icon-text">Recent</p>
-					</div>
-				</a>
-				<a class="list-group-item" href="#">
-					<div class="icon-holder vertical-align">
-						<i class="fa fa-list fa-fw icon" aria-hidden="true"></i>
-						<p class="icon-text">Category</p>
-					</div>
-				</a>
-				<a class="list-group-item" href="#">
-					<div class="icon-holder vertical-align">
-						<i class="fa fa-search fa-fw icon" aria-hidden="true"></i>
-						<p class="icon-text">Search</p>
-					</div>
-				</a>
-			</div>
-		</div>
 		
-		<div id="main" class="container">
-			<div class="popular-topics">
-			
-			</div>
-			<div class="recipes">
-				<div class="recipe">
-				
-				</div>
-				<div class="recipe">
-				
-				</div>
-				<div class="recipe">
-				
-				</div>
-				<div class="recipe">
-				
-				</div>
-			</div>
-		</div>
-		
+		<canvas id="myChart" width="400" height="400"></canvas>
+
 		<!--build:js js/main.min.js -->
+		<script src="js/lib/Chart.bundle.min.js"></script>
 		<script src="js/main.js"></script>
 		<!-- endbuild -->
 	</body>
